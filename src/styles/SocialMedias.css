@@ -1,0 +1,12 @@
+.link:hover::before {
+    opacity: 0.4;
+}
+
+.link:nth-child(1)::before{
+    background: #c32aa3;
+}
+
+.link:hover::before{
+    transform: translate(-4px, -4px);
+    filter: blur(10px);
+}

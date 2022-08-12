@@ -1,0 +1,58 @@
+.hero{
+    min-height: 100vh;
+    background-color: #283149;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    position: relative;
+}
+
+.containerAbout{
+    width: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.containerImg{
+    width: 50%;
+    display: flex;
+    justify-content: center;
+}
+
+.containerDescription{
+    width: 50%;
+}
+
+.containerDescription p{
+    text-align: center;
+    color: #DBEDF3;
+    padding-top: .3rem;
+}
+
+.title{
+    color: #DBEDF3;
+}
+
+
+
+.custom-shape-divider-bottom-1660329884 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1660329884 svg {
+    position: relative;
+    display: block;
+    width: calc(112% + 1.3px);
+    height: 251px;
+}
+
+.custom-shape-divider-bottom-1660329884 .shape-fill {
+    fill: #404B69;
+}
