@@ -14,6 +14,6 @@ function SocialMedias() {
   )
 }
 
-// jjjkj
+
 
 export default SocialMedias
