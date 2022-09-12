@@ -1,0 +1,42 @@
+.tecnologiesBody{
+    background-color: #404B69;
+}
+
+.title{
+    text-align: center;
+}
+
+.containerTec{
+    display: flex;
+    flex-wrap: wrap;
+    width: 60%;
+    margin: auto;
+    justify-content: center;
+}
+
+.img{
+    width: 170px;
+    padding: 20px;
+}
+
+
+.custom-shape-divider-bottom-1663025031 {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    overflow: hidden;
+    line-height: 0;
+    transform: rotate(180deg);
+}
+
+.custom-shape-divider-bottom-1663025031 svg {
+    position: relative;
+    display: block;
+    width: calc(100% + 1.3px);
+    height: 167px;
+}
+
+.custom-shape-divider-bottom-1663025031 .shape-fill {
+    fill: #404B69;
+}

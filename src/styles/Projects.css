@@ -1,0 +1,22 @@
+.projectsBody{
+    background-color: #283149;
+}
+
+.imgProject{
+    width: 500px;
+    height: 250px;
+}
+
+.containerItems{
+    display: flex;
+    flex-direction: column;
+    background-color: #404B69;
+}
+
+.containerProjects{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 3rem;
+    justify-content: center;
+    padding-top: 2rem;
+}

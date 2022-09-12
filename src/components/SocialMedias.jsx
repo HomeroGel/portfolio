@@ -14,6 +14,4 @@ function SocialMedias() {
   )
 }
 
-//D
-
 export default SocialMedias
