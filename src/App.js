@@ -14,7 +14,7 @@ function App() {
       <ScrollToTop
         className='styles_scroll-to-top__2A70v'
         smooth
-        component={<ArrowDropUpIcon/>}
+        component={<ArrowDropUpIcon/>}  //Scrolltotop
       />
     </>
   );
