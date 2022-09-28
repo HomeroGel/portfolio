@@ -5,7 +5,7 @@ import projects from '../json/projects.json'
 const Projects = () => {
   return (
     <div className='projectsBody'>
-        <h1 className='title'>Projects</h1>
+        <h1 className='title'>Projectos</h1>
         <div className='containerProjects'>
             {projects.map(item =>{
                 return(
