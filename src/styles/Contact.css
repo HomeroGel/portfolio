@@ -1,0 +1,23 @@
+.formBody {
+    background-color: #283149;
+}
+
+.form {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    background-color: #404B69;
+    width: 50%;
+    margin: auto;
+    margin-top: 1rem;
+    padding: 2rem 0;
+    box-shadow: -1px 8px 32px 4px rgba(0, 0, 0, 0.54);
+    -webkit-box-shadow: -1px 8px 32px 4px rgba(0, 0, 0, 0.54);
+    -moz-box-shadow: -1px 8px 32px 4px rgba(0, 0, 0, 0.54);
+    border-radius: 10px;
+}
+
+textarea {
+    resize: none;
+}
