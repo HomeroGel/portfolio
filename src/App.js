@@ -6,6 +6,7 @@ import ScrollToTop from 'react-scroll-to-top'
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import Contact from './components/Contact'
 
+
 function App() {
   return (
     <>

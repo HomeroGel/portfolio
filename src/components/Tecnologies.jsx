@@ -8,13 +8,13 @@ const Tecnologies = () => {
         <div className='tecnologiesBody'>
             <h1 className='title'>Tecnologias</h1>
             <div className='containerTec'>
-                {tecnologies.map(img => {
+                {tecnologies.map((img, index) => {
                     return (
-                        <>
-                            <div>
+                        
+                            <div key={index}>
                                 <img className='img' src={process.env.PUBLIC_URL + `${img.logo}`} alt={`${img.name}`} />
                             </div>
-                        </>
+                        
                     )
                 })}
             </div>
