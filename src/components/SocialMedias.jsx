@@ -7,8 +7,8 @@ function SocialMedias() {
   return (
     <div>
       <div className='link'>
-        <GitHubIcon  fontSize='large'/>
-        <LinkedInIcon fontSize='large'/>
+        <a className='iconsSM' rel="noreferrer" target="_blank" href="https://github.com/HomeroGel"><GitHubIcon  fontSize='large'/></a>
+        <a className='iconsSM' rel="noreferrer" target="_blank" href="https://www.linkedin.com/in/homero-gelves-53712a1a8/"><LinkedInIcon fontSize='large'/></a>
       </div>
     </div>
   )

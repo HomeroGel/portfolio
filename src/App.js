@@ -5,11 +5,13 @@ import './styles/App.css';
 import ScrollToTop from 'react-scroll-to-top'
 import ArrowDropUpIcon from '@mui/icons-material/ArrowDropUp';
 import Contact from './components/Contact'
+import Navbar from './components/Navbar'
 
 
 function App() {
   return (
     <>
+      <Navbar/>
       <Hero/>
       <Tecnologies/>
       <Projects/>

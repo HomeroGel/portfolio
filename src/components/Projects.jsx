@@ -1,10 +1,7 @@
 import React from 'react'
 import '../styles/Projects.css'
-import projects from '../json/projects.json'
 import LinkIcon from '@mui/icons-material/Link';
 import GitHubIcon from '@mui/icons-material/GitHub';
-// import { Link as LinkRouter } from 'react-router-dom'
-// import links from '../json/linksProjects.json'
 
 const Projects = () => {
     const myProjects = [
@@ -17,7 +14,7 @@ const Projects = () => {
         },
         {
             "name": "MyTinerary",
-            "url": "https://www.google.com/",
+            "url": "https://mytinerary-gelves.herokuapp.com/",
             "img":"https://i.imgur.com/qSTKfwN.jpg",
             "github":"https://github.com/HomeroGel/mytinerary-gelves"
         },
