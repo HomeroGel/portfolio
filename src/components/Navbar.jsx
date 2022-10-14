@@ -1,6 +1,6 @@
 import { Navbar, Link, Text, Avatar, Dropdown } from "@nextui-org/react";
 import { Layout } from "./Layout.js";
-import { AcmeLogo } from "./AcmeLogo.js";
+import '../styles/Navbar.css'
 
 export default function App() {
   const collapseItems = [
@@ -21,9 +21,8 @@ export default function App() {
             },
           }}
         >
-          <AcmeLogo />
           <Text b color="inherit" hideIn="xs">
-            ACME
+            Homero Gelves
           </Text>
         </Navbar.Brand>
         <Navbar.Content
@@ -37,7 +36,7 @@ export default function App() {
           <Navbar.Link href="#">Projectos</Navbar.Link>
           <Navbar.Link href="#">Contacto</Navbar.Link>
         </Navbar.Content>
-        <Navbar.Content
+         <Navbar.Content
           css={{
             "@xs": {
               w: "12%",
@@ -45,7 +44,7 @@ export default function App() {
             },
           }}
         >
-          <Dropdown placement="bottom-right">
+          {/*<Dropdown placement="bottom-right">
             <Navbar.Item>
               <Dropdown.Trigger>
                 <Avatar
@@ -86,17 +85,17 @@ export default function App() {
                 Log Out
               </Dropdown.Item>
             </Dropdown.Menu>
-          </Dropdown>
+          </Dropdown> */}
         </Navbar.Content>
         <Navbar.Collapse disableAnimation>
           {collapseItems.map((item, index) => (
             <Navbar.CollapseItem
               key={item}
               activeColor="warning"
-              css={{
-                color: index === collapseItems.length - 1 ? "$error" : "",
-              }}
-              isActive={index === 2}
+              // css={{
+              //   color: index === collapseItems.length - 1 ? "$error" : "",
+              // }}
+              // isActive={index === 1}
             >
               <Link
                 color="inherit"
