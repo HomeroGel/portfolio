@@ -6,7 +6,7 @@ const Tecnologies = () => {
 
     return (
         <div className='tecnologiesBody'>
-            <h1 className='title'>Tecnologias</h1>
+            <h1 id='tecnologies' className='title'>Tecnologias</h1>
             <div className='containerTec'>
                 {tecnologies.map((img, index) => {
                     return (

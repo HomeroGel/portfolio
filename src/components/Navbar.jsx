@@ -21,9 +21,7 @@ export default function App() {
             },
           }}
         >
-          <Text b color="inherit" hideIn="xs">
-            Homero Gelves
-          </Text>
+          <Text b color="inherit" hideIn="xs">Homero Gelves</Text>
         </Navbar.Brand>
         <Navbar.Content
           enableCursorHighlight
@@ -31,10 +29,10 @@ export default function App() {
           hideIn="xs"
           variant="highlight"
         >
-          <Navbar.Link isActive href="#">Inicio</Navbar.Link>
-          <Navbar.Link href="#">Tecnologias</Navbar.Link>
-          <Navbar.Link href="#">Projectos</Navbar.Link>
-          <Navbar.Link href="#">Contacto</Navbar.Link>
+          <Navbar.Link href="#home">Inicio</Navbar.Link>
+          <Navbar.Link href="#tecnologies">Tecnologias</Navbar.Link>
+          <Navbar.Link href="#projects">Projectos</Navbar.Link>
+          <Navbar.Link href="#contact">Contacto</Navbar.Link>
         </Navbar.Content>
          <Navbar.Content
           css={{
@@ -44,6 +42,15 @@ export default function App() {
             },
           }}
         >
+          <Navbar.Brand
+          css={{
+            "@xs": {
+              w: "12%",
+            },
+          }}
+        >
+          <Text b color="inherit" hideIn="xs">Version Beta.</Text>
+        </Navbar.Brand>
           {/*<Dropdown placement="bottom-right">
             <Navbar.Item>
               <Dropdown.Trigger>

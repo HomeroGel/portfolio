@@ -5,9 +5,9 @@ import SocialMedias from './SocialMedias'
 function Hero() {
   return (
     <>
-      <div className='hero'>
+      <div id='home' className='hero'>
         <div className='containerAbout'>
-          <h1 className='title'>Hola. Soy Homero</h1>
+          <h1 className='titleHero'>Homero Gelves</h1>
           <div className='containerDescription'>
             <p>Soy una persona enérgica, positiva y siempre estoy con ganas de seguir capacitándome y aprendiendo nuevas tecnologías.
               Me gusta mucho trabajar en equipo, ya que me gusta conocer y socializar con nuevas personas.</p>
