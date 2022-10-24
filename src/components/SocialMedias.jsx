@@ -12,7 +12,6 @@ function SocialMedias() {
       </div>
     </div>
   )
-  
 }
 
 export default SocialMedias
